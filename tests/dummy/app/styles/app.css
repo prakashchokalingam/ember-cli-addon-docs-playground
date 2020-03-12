@@ -1,0 +1,38 @@
+:root {
+  --primary: #2c5cc5;
+  --ember: #e04e38;
+  --white: #fff;
+}
+
+body {
+  background-color: var(--white);
+}
+
+.docs-bg-brand {
+  background-color: var(--primary) !important;
+}
+
+.docs-text-brand {
+  color: var(--primary);
+}
+
+
+.ember-logo {
+  background-color: var(--primary);
+  width: 100%;
+  padding-bottom: 3%;
+}
+
+.ember-logo--container {
+  width: 20%;
+  margin: 0 auto;
+}
+
+.ember-logo .docs-fill-current,
+.ember-logo .docs-fill-current * {
+   fill: var(--ember);
+}
+
+.hover\:docs-text-brand:hover {
+  color: var(--primary);
+}

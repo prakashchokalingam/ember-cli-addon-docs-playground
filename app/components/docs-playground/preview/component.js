@@ -1,0 +1,1 @@
+export { default } from 'ember-cli-addon-docs-playground/components/docs-playground/preview/component';
